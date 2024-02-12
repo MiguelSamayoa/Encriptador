@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    
+
+    <header>
+        <img src="Img/Logo.png" alt="logo Alura" class="logo">
+    </header>
+    <main>
+        <!-- Lado Izquierdo: seccion en la que se ingresa el texto a Encriptar o Desencriptar-->
+        <div class="div_Input">
+
+            <textarea id="input" type="text" placeholder="Ingrese el texto" >
+            </textarea>
+
+
+            <div class="buttons">
+                <button class="btn Encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btn Desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+            
+        </div>
+
+        <!-- Lado Derecho: seccion en la que se muestra el resultado de la encriptacion o desencriptacion-->
+        <div class="div_result">
+            <p id="output">
+
+            </p>
+
+            <button class="btn copiar" onclick="copiar()">Copiar</button>
+        </div>
+
+    </main>
+    
+
+</body>
+</html>

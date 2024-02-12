@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F3F5FC;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    margin: 50px auto 0 0px;
+    width: 100%;
+    height: 48px;
+}
+
+main{
+    padding: 0%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.div_Input{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 90%;
+    background-color: #F3F5FC;
+}
+
+.div_result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 600px;
+    background-color: #FFFFFF;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+#input{
+    background-color: #F3F5FC;
+    margin-top: 15px auto;
+    border: none;
+    height: 400px;
+    width: 90%;
+    border-radius: 15px;
+    font-size: large;
+    padding: 50px 30px 50px 30px;
+    justify-content: start;
+    align-items: start;
+}
+
+#output{
+    margin: 15px auto;
+    border: none;
+    height: 90%;
+    width: 90%;
+    font-size: large;
+    justify-content: start;
+    align-items: start;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 10px 50px 10px 50px;
+    margin: 0 auto 0 auto;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn:hover{
+    background-color: #CED4DA;
+    color: white;
+    cursor: pointer;
+}
+
+.Encriptar{
+    background-color: #0A3871;
+    color: #fff;
+}
+
+.Desencriptar{
+    background-color: #CED4DA;
+}
+
+.copiar{
+    background-color: #0A3871;
+    color: #fff;
+
+    margin: 0 auto 15px auto;
+}

@@ -6,8 +6,7 @@ body{
 }
 
 header{
-    margin: 50px auto 0 0px;
-    width: 100%;
+    margin: 25px auto 0 25px;
     height: 48px;
 }
 
@@ -40,7 +39,7 @@ main{
 
 #input{
     background-color: #F3F5FC;
-    margin-top: 15px auto;
+    margin: 15px auto;
     border: none;
     height: 400px;
     width: 90%;
@@ -49,14 +48,18 @@ main{
     padding: 50px 30px 50px 30px;
     justify-content: start;
     align-items: start;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.25);
+
 }
 
 #output{
+    padding: 25px;
     margin: 15px auto;
     border: none;
     height: 90%;
     width: 90%;
     font-size: large;
+    font-weight: bold;
     justify-content: start;
     align-items: start;
 }
@@ -73,7 +76,7 @@ main{
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 200px;
+    width: 150px;
     border: none;
     border-radius: 15px;
     font-size: large;
@@ -101,4 +104,34 @@ main{
     color: #fff;
 
     margin: 0 auto 15px auto;
+}
+
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+        height: 800px;
+    }
+
+  .div_Input {
+    width: 75%;
+    height: 50%;
+    margin: 0 auto 0 auto;
+  }
+
+  .div_result {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto 0 auto;
+  }
+
+  #input {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .buttons {
+    width: 100%;
+    padding: 10px;
+  }
 }
